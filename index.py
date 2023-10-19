@@ -1,5 +1,8 @@
 # import your functions here
-print("holu")
+from utils import files
+book1=files.readFile("el_quijote.txt")
+book2=files.readFile("el_quijote_ii.txt")
+print(book1 +book2)
 # read the quijote here
 
 
